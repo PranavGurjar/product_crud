@@ -13,7 +13,7 @@
         <div class="col-md-6 offset-md-3">
             <h1 class="text-center mb-3">Fill the Product Detail</h1>
 
-            <form action="handle-product" method="post">
+            <form action="handle_product" method="post">
                 <div class="form-group">
                     <label for="name">Product Name</label>
                     <input type="text" class="form-control" id="name" name="name" placeholder="Enter the product name here">
@@ -30,7 +30,7 @@
                 </div>
 
                 <div class="container text-center mt-3">
-                    <a href=" " class="btn btn-outline-danger">Back</a>
+                    <a href="${pageContext.request.contextPath}/" class="btn btn-outline-danger">Back</a>
                     <button type="submit" class="btn btn-primary">Add</button>
                 </div>
             </form>
